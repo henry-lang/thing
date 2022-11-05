@@ -56,3 +56,17 @@
 
 .order {
 }
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--honeydew);
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    padding:0;
+    margin:0;
+}
