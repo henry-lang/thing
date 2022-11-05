@@ -25,14 +25,22 @@
     margin-left:-20%;
 }
 
-.inglist li button{
-    padding: 10%;
+.order{
+    padding: 20%;
     border-radius:5px;
     background-color:var(--green);
     color:var(--white);
     border:none;
-    margin-left:100%;
+    margin-left:50%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    transition: background-color 300ms ease-in-out;
+    -webkit-transition: background-color 300ms ease-in-out; 
+    -ms-transition: background-color 300ms ease-in-out;
+}
+
+.inglist li button:hover{
+    background-color:var(--independence);
 }
 
 .inglist p{
