@@ -64,17 +64,9 @@
 
 .footer {
     position: relative;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: var(--black);
-    color: var(--honeydew);
+    background-color: var(--independence);
+    color: var(--white);
     overflow:hidden;
     display:flex;
-    padding:0;
-    margin:0;
-}
-
-.footer div{
-    flex: 1 1 auto;
 }
