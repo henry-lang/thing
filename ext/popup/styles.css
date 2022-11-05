@@ -10,5 +10,20 @@
 }
 
 .inglist {
-    
+    color:var(--purple);
+    display:inline-block;
+    flex-wrap:nowrap;
+}
+
+.inglist div{
+    padding:2%;
+
+}
+
+.inglist p{
+    margin-right:-5%;
+}
+
+.bg {
+    background-color:var(--gold);
 }
