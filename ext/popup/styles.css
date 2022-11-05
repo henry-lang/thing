@@ -1,0 +1,14 @@
+:root {
+    --gold:#F2C57C;
+    --fawn:#DDAE7E;
+    --independence:#444054;
+    --purple:#2F243A;
+}
+
+.homeHeader {
+    color:var(--purple);
+}
+
+.inglist {
+    
+}
