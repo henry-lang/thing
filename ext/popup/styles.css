@@ -1,13 +1,10 @@
-@font-face {
-    font-family: Lato;
-    src: url(assets/fonts/Lato.ttf);
-}
-
 :root {
     --gold:#F2C57C;
     --fawn:#DDAE7E;
     --independence:#444054;
     --purple:#2F243A;
+    --white:#F1FFFA;
+    --green:#32A287;
 }
 
 .homeHeader {
@@ -16,20 +13,34 @@
 
 .inglist {
     color:var(--purple);
-    font-family: 'Lato';
     display:inline-block;
     flex-wrap:nowrap;
+    list-style:none;
 }
 
-.inglist div{
-    padding:2%;
+.inglist li a{
+    display:inline-block;
+}
+.inglist li{
+    margin-left:-20%;
 }
 
-.inglist div button{
-    padding:2%;
-    border-radius:25%;
-    border:0.1%;
-    border-color:var(--fawn)
+.order{
+    padding: 20%;
+    border-radius:5px;
+    background-color:var(--green);
+    color:var(--white);
+    border:none;
+    margin-left:50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    transition: background-color 300ms ease-in-out;
+    -webkit-transition: background-color 300ms ease-in-out; 
+    -ms-transition: background-color 300ms ease-in-out;
+}
+
+.inglist li button:hover{
+    background-color:var(--independence);
 }
 
 .inglist p{
@@ -37,7 +48,8 @@
 }
 
 .bg {
-    background-color:var(--gold);
+    background-color:var(--white);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border:50%;
     border-color:var(--purple);
 }
