@@ -12,11 +12,9 @@
 }
 
 .homeHeader {
-    color:var(--purple);
-    background-color:var(--white);
-    padding:2%;
-    padding-top:1%;
-    padding-bottom:1%;
+    color:var(--white);
+    background-color:var(--independence);
+    padding:5%;
 }
 
 .inglist {
@@ -66,10 +64,9 @@
 
 .footer {
     position: relative;
-    width: 100%;
     background-color: var(--independence);
     color: var(--white);
-    padding:2%;
+    padding:5%;
     padding-top:1%;
     padding-bottom:1%;
 }
