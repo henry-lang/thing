@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Lato;
+    src:url(assets/fonts/Lato.ttf);
+}
 :root {
     --gold:#F2C57C;
     --fawn:#DDAE7E;
@@ -32,7 +36,7 @@
     color:var(--white);
     border:none;
     margin-left:50%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lato';
 
     transition: background-color 300ms ease-in-out;
     -webkit-transition: background-color 300ms ease-in-out; 
@@ -49,9 +53,10 @@
 
 .bg {
     background-color:var(--white);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lato';
     border:50%;
     border-color:var(--purple);
+    min-width:200px;
 }
 
 .order {
