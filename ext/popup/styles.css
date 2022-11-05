@@ -33,7 +33,7 @@
 .bg {
     background-color:var(--gold);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border:5%;
+    border:50%;
     border-color:var(--purple);
 }
 
