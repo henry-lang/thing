@@ -17,7 +17,13 @@
 
 .inglist div{
     padding:2%;
+}
 
+.inglist div button{
+    padding:2%;
+    border-radius:25%;
+    border:0.1%;
+    border-color:var(--fawn)
 }
 
 .inglist p{
@@ -26,4 +32,8 @@
 
 .bg {
     background-color:var(--gold);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.order {
 }
